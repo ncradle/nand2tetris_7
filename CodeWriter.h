@@ -7,8 +7,8 @@ class CodeWriter {
 
  public:
   CodeWriter(std::ofstream *fp);
-  std::string setFileName(std::string fileName);
-  std::string writeArithemetic(std::string command);
-  std::string wtirePushPop(std::string comannd, std::string segment, int index);
+  void setFileName(std::string fileName);
+  void writeArithemetic(std::string command);
+  void wtirePushPop(std::string comannd, std::string segment, int index);
   void close();
 };
